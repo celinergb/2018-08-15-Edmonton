@@ -205,7 +205,7 @@ and our administrator may contact you if we need any extra information.</h4>
   {% include lc/syllabus.html %}
 {% endif %}
 
-</hr>
+<hr/>
 
 <h2 id="setup">Setup</h2>
 
