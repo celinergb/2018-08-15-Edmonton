@@ -195,6 +195,7 @@ and our administrator may contact you if we need any extra information.</h4>
 <p>Ask your instructor about pre- and post-workshop Survey details.</p>
 {% endif %}
 
+{% comment %} 
   SYLLABUS
 
   Show what topics will be covered.
@@ -211,6 +212,7 @@ and our administrator may contact you if we need any extra information.</h4>
   please preview your site before committing, and make sure to run
   'tools/check' as well.
 {% endcomment %}
+
 <h2 id="syllabus">Syllabus</h2>
 
 {% if page.carpentry == "swc" %}
