@@ -50,7 +50,7 @@ collaborative_notes:             # optional: URL for the workshop collaborative 
 If you are running a self-organized workshop or have not put in a workshop request yet, please also fill in 
 <a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know about your workshop
 and our administrator may contact you if we need any extra information.</h4>
-{% comment %}
+{% endcomment %}
 
 <h2 id="general">General Information</h2>
 
@@ -196,6 +196,7 @@ and our administrator may contact you if we need any extra information.</h4>
 <hr/>
 
 <h2 id="syllabus">Syllabus</h2>
+
 {% if page.carpentry == "swc" %}
   {% include sc/syllabus.html %}
 {% elsif page.carpentry == "dc" %}
@@ -211,6 +212,6 @@ and our administrator may contact you if we need any extra information.</h4>
 <p>
   This lesson does not require any special setup.
 </p>
-
+<p>
  
 
