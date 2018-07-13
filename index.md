@@ -196,7 +196,6 @@ and our administrator may contact you if we need any extra information.</h4>
 <hr/>
 
 <h2 id="syllabus">Syllabus</h2>
-
 {% if page.carpentry == "swc" %}
   {% include sc/syllabus.html %}
 {% elsif page.carpentry == "dc" %}
@@ -212,6 +211,6 @@ and our administrator may contact you if we need any extra information.</h4>
 <p>
   This lesson does not require any special setup.
 </p>
-<p>
+
  
 
